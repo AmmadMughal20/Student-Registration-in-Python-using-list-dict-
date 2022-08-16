@@ -57,9 +57,7 @@ print("*"*73 + "\n")
 # Printing all registered students list
 print_counter = 1
 for student in Students:
-    print('*'*21+'')
-    print('*'*3 + f' Student no. {print_counter} ' + '*'*3)
-    print('*'*21+'\n')
+    print('*'*21+'\n'+'*'*3 + f' Student no. {print_counter} ' + '*'*3 + '\n' + '*'*21)
     # Printing details of a single student
     for key,value in student.items():
         print(f'{key}: {value}')
